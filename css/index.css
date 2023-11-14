@@ -10,12 +10,8 @@
 .navbar a {
     color: black;
     font-weight: 500;
-    transition: all ease 0.5s;
 }
 
-.navbar a:hover {
-    color: aqua;
-}
 
 /* home section  */
 
@@ -75,6 +71,7 @@
     padding-left: 46px;
     margin-top: 25px;
 }
+
 
 @media screen and (max-width:767px){
     .home .col1{
