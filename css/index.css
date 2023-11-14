@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    height: 8vh;
+}
+
+.navbar a {
+    color: black;
+    font-weight: 500;
+    transition: all ease 0.5s;
+}
+
+.navbar a:hover {
+    color: aqua;
+}
+
+/* home section  */
+
+.home {
+    width: 100%;
+    height: 100vh;
+    padding-top: 7%;
+}
+
+.home .col {
+    height: 85vh;
+}
+
+.home .col1 {
+    padding-top: 10%;
+}
+
+.home .col1 p {
+    font-size: 20px;
+}
+
+.home .col1 i {
+    padding: 5% 5% 0 0;
+    margin-bottom: 10%;
+    font-size: larger;
+    color: rgba(0, 0, 255, 0.419);
+    transition: all ease 0.5s;
+}
+
+
+.home .col1 i:hover {
+    color: blue;
+    transform: rotate(10deg);
+}
+
+.home .col1 .h-btn {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, #453DD5 20%, #DE25A3);
+    border-radius: 10px;
+    padding: 15px 25px;
+    transition: all ease 0.5s;
+}
+
+.home .col1 .h-btn:hover {
+    background: linear-gradient(to right, #DE25A3 10%, #453DD5);
+}
+
+.hero-bg {
+    background-image: url(../Assets/hero.png);
+    height: 95%;
+    border-radius: 100% 100% 0% 0%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 15px;
+    padding-left: 46px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width:767px){
+    .home .col1{
+        margin-top: 20px;
+    }
+    .home .col2{
+        display: none;
+    }
+}
