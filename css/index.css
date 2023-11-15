@@ -131,6 +131,23 @@
     background: linear-gradient(to right, #DE25A3 10%, #453DD5);
 }
 
+@media screen and (max-width:400px){
+    .about{
+        height: 220vh;
+    }
+}
+
+@media (min-width:400px) and (max-width:600px){
+    .about{
+        height: 200vh;
+    }
+}
+@media (min-width:600px) and (max-width:900px){
+    .about{
+        height: 120vh;
+    }
+}
+
 /* services section  */
 .service{
     width: 100%;
@@ -149,6 +166,12 @@
 
 .service .col div{
     height: 70vh;
+    background-color: #FDF2FF;
+    transition: all ease 0.5s;
+}
+.service .col div:hover{
+    background-color: blue;
+    color: white;
 }
 
 .service i{
@@ -156,7 +179,6 @@
     padding-bottom: 15%;
     padding-top: 15%;
     font-weight: bold;
-    color: blue;
 }
 
 .service .h-btn {
@@ -171,4 +193,16 @@
 
 .service .h-btn:hover {
     background: linear-gradient(to right, #DE25A3 10%, #453DD5);
+}
+
+@media screen and (max-width:600px){
+    .service .col div{
+        height: 90vh;
+    }
+}
+
+@media (min-width:600px) and (max-width:1000px){
+    .service .col div{
+        height: 80vh;
+    }
 }
