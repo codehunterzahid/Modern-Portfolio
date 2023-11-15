@@ -12,6 +12,10 @@
     font-weight: 500;
 }
 
+.sp{
+    letter-spacing: 5px;
+}
+
 
 /* home section  */
 
@@ -124,5 +128,47 @@
 }
 
 .about .col2 .h-btn:hover {
+    background: linear-gradient(to right, #DE25A3 10%, #453DD5);
+}
+
+/* services section  */
+.service{
+    width: 100%;
+    height: 120vh;
+}
+
+.s-text{
+    width: 40%;
+    padding-bottom: 6%;
+}
+.s-text h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.service .col div{
+    height: 70vh;
+}
+
+.service i{
+    font-size: 50px;
+    padding-bottom: 15%;
+    padding-top: 15%;
+    font-weight: bold;
+    color: blue;
+}
+
+.service .h-btn {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to right, #453DD5 20%, #DE25A3);
+    border-radius: 10px;
+    padding: 15px 20px;
+    transition: all ease 0.5s;
+    font-weight: 500;
+}
+
+.service .h-btn:hover {
     background: linear-gradient(to right, #DE25A3 10%, #453DD5);
 }
