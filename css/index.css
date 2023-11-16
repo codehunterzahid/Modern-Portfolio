@@ -523,6 +523,26 @@ li{
     text-align: center;
   }
 
+  @media screen and (max-width:400px){
+    .portfolio{
+        height: 380vh;
+    }
+  }
+
+  
+  @media (min-width:400px) and (max-width:600px){
+    .portfolio{
+        height: 320vh;
+    }
+  }
+
+  
+  @media (min-width:600px) and (max-width:900px){
+    .portfolio{
+        height: 150vh;
+    }
+  }
+
   /* contact section  */
   .contact{
     width: 100%;
