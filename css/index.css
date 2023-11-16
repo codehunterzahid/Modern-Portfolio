@@ -544,3 +544,15 @@ li{
 .contact .h-btn:hover {
     background: linear-gradient(to right, #DE25A3 10%, #453DD5);
 }
+
+.contact i{
+    font-size: 30px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.contact .col2 div div{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
