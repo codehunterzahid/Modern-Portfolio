@@ -587,6 +587,7 @@ img {
     transition: all ease 0.5s;
 }
 
+
 .contact .h-btn:hover {
     background: linear-gradient(to right, #DE25A3 10%, #453DD5);
 }
