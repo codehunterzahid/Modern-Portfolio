@@ -48,7 +48,7 @@
 
 .home .col1 i:hover {
     color: blue;
-    transform: rotate(10deg);
+    transform: translateY(-10px);
 }
 
 .home .col1 .h-btn {
@@ -612,4 +612,24 @@ footer{
     background-color: #000;
     color: white;
     text-align: center;
+    padding: 5%;
+}
+
+footer i{
+    background-color: white;
+    color: black;
+    padding: 15px 15px;
+    border-radius: 50%;
+    font-weight: bold;
+    margin: 1%;
+    margin-top: 3%;
+    font-size: 20px;
+    transition: all ease 0.5s;
+}
+
+footer i:hover{
+    transform: translateY(-15px);
+    background: linear-gradient(to right, #453DD5 20%, #DE25A3);
+    transform: rotate(360deg);
+    color: white;
 }
