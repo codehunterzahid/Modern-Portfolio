@@ -79,7 +79,8 @@
 
 @media screen and (max-width:820px) {
     .home {
-        height: 60vh;
+        height: 40vh;
+        padding-top: 20%;
     }
 
     .home .col1 {
@@ -137,7 +138,12 @@
 
 @media screen and (max-width:400px) {
     .about {
-        height: 220vh;
+        height: 140vh;
+        margin-top: 20%;
+    }
+
+    .about .col1{
+        height: 60vh;
     }
 }
 
@@ -203,9 +209,28 @@
     background: linear-gradient(to right, #DE25A3 10%, #453DD5);
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:400px){
     .service {
-        height: 380vh;
+        height: 270vh;
+    }
+
+    .s-text {
+        width: 80%;
+    }
+
+    .s-text h1 {
+        font-size: 30px;
+    }
+
+    .service .col div {
+        height: 70vh;
+    }
+}
+
+@media (min-width:400px) and (max-width:600px) {
+    .service {
+        height: 330vh;
+        margin: 0 5%;
     }
 
     .s-text {
@@ -410,8 +435,9 @@ li {
         text-align: center;
         padding-left: 0;
     }
-    .p-text .h1{
-        text-align: center;
+    .p-text h2{
+        margin: auto;
+        width: 80%;
     }
 
     .content {
@@ -549,7 +575,8 @@ img {
 
 @media screen and (max-width:400px) {
     .portfolio {
-        height: 380vh;
+        height: 350vh;
+        margin-top: 10%;
     }
 }
 
@@ -605,6 +632,11 @@ img {
     padding-bottom: 10px;
 }
 
+@media screen and (max-width:400px){
+    .contact{
+        height: 110vh;
+    }
+}
 /* footer section */
 footer{
     width: 100%;
@@ -637,4 +669,20 @@ footer i:hover{
 footer p{
     font-size: 20px;
     padding-top: 5%;
+}
+
+@media screen and (max-width:400px){
+    footer{
+        height: 50vh;
+    }
+
+    footer img{
+        width: 60%;
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
+
+    footer i{
+        margin-bottom: 10%;
+    }
 }
